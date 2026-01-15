@@ -19,7 +19,8 @@ session_start();
     }
     ?>
 
-    <form method="POST" action="valida.php">
+    <form method="POST" action="home
+    .php">
         <label for="usuario">Usuário</label><br>
         <input type="text" name="usuario" id="usuario" placeholder="Digite o seu usuário" required>
         <br><br>

@@ -192,7 +192,6 @@
     <button type="submit">Cadastrar</button>
 </form>
 
-<!-- DASHBOARD -->
 <div class="dashboard">
     <h2>Acesso aos Cadastros</h2>
 
@@ -221,9 +220,8 @@
                 <td><?= htmlspecialchars($row['cidade']) ?></td>
                 <td><?= htmlspecialchars($row['estado']) ?></td>
                 <td>
-                    <a href="?excluir=<?= $row['id'] ?>" 
-                       onclick="return confirm('Deseja excluir?')">
-                       Excluir
+                    <a href="?excluir=<?= $row['id'] ?>" onclick="return confirm('Deseja excluir?')">
+                        Excluir
                     </a>
                 </td>
             </tr>
