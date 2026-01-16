@@ -46,10 +46,11 @@
 <div class="container">
     <h1>Menu Principal</h1>
 
-    <a href="quartos.php">Cadatro quartos</a>
+    <a href="quartos.php">Cadastro quartos</a>
     <a href="suite.php">Cadastro de suites</a>
-    <a href="formdois.php">Cadastro Acomodações</a>
-    <a href="reserva/index.php">Reserva - pousada</a>
+    <a href="reserva/reserva.php">Reserva - pousada</a>
+    <a href="estacionamento.php">Estacionamento - pousada</a>
+    <a href="usuarios.php">Listas usuarios</a>
 </div>
 
 </body>

@@ -12,7 +12,8 @@ $result = mysqli_query($conn, $sql);
 
 if (mysqli_num_rows($result) > 0) {
     echo "Login realizado com sucesso!";
-    header ("location:formdois.php");
+    header ("location:home.php");
 } else {
     echo "Usuário ou senha incorretos.";
+    header ("location:login.php");
 }

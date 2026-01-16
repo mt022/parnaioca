@@ -14,13 +14,12 @@ session_start();
 
     <?php
     if (isset($_SESSION['msg'])) {
-        echo htmlspecialchars($_SESSION['msg'], ENT_QUOTES, 'UTF-8');
+        echo htmlspecialchars($_SESSION['msg'], ENT_QUOTES, 'UTF-8') . "<br><br>";
         unset($_SESSION['msg']);
     }
     ?>
 
-    <form method="POST" action="home
-    .php">
+    <form method="POST" action="valida.php">
         <label for="usuario">Usuário</label><br>
         <input type="text" name="usuario" id="usuario" placeholder="Digite o seu usuário" required>
         <br><br>
@@ -32,11 +31,6 @@ session_start();
         <input type="submit" value="Acessar">
     </form>
 
-    <table>
-        <tr>
-            
-        </tr>
-    </talble>
 </body>
 </html>
 
